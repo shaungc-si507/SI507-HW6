@@ -170,3 +170,5 @@ It means wait for the document to be ready, which means wait for the HTML to be 
 
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
 	* *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.
+
+I added a conditional block to check if the input matches `hello`, then it will greet back `Hello to you too!`.
